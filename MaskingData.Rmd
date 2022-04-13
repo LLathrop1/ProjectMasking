@@ -1,5 +1,6 @@
 ---
-title: "Masking Data"
+title: "Mask Your Portfolio"
+subtitle: "*Anonymizing Your Data*"
 author: "Larry Lathrop"
 date: '2022-04-13'
 output:
@@ -9,7 +10,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE)
 ```
 
 # {.tabset}
@@ -26,6 +27,7 @@ But, you can mask the data easily with pseudonyms. This hides, the critical info
 
 Let's take a look at how this works.
 
+
 ## The Packages
 ```{r packages,  results="hide"}
 #install.packages(c("tidyverse", "noah"))
@@ -38,7 +40,9 @@ library(DT)
 
 
 We load up the *tidyverse* to help with tidy data. And the noah package to create an amazing animal mask for data. WE will also add ploty to make our ggplots a little more dynamic and the DT to create dynamic tables
-
+<p align="center">
+![](noah logo.png)
+</p>
 
 ## Loading The Data
 ```{r data}
@@ -150,5 +154,6 @@ Now this chart has masked the important information. All we need to do is make a
 Now when we share our portfolio, we can explain, share, and show what we did for previous clients with ease.  
 
 
+
 ## Where's Larry
-![How to find Larry](Contact.png)
+![](Contact.png)

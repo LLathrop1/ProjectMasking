@@ -10,9 +10,9 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-
-
 ```
+
+# {.tabset}
 
 ## Masking Data
 
@@ -149,3 +149,6 @@ Now this chart has masked the important information. All we need to do is make a
 
 Now when we share our portfolio, we can explain, share, and show what we did for previous clients with ease.  
 
+
+## Where's Larry
+![How to find Larry](Contact.png)

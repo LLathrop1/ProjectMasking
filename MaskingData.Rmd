@@ -46,7 +46,8 @@ df <- read.csv("Demo Data.csv", stringsAsFactors = FALSE)
 
 datatable(
   df,
-  options =  list(pageLength = 5),
+  options =  list(pageLength = 5,
+                  scrollX = T),
   rownames = FALSE
 )
 
